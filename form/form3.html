@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>상품 주문서</h1>
+    <fieldset>
+      <ul>
+        <li>
+          <label for="name">이름</label>
+          <input type="text" name="name" id="" placeholder="여백없이 입력" />
+        </li>
+        <li>
+          <label for="tel1">연락처</label>
+          <input
+            type="tel1"
+            name="name"
+            id=""
+            placeholder="연락가능한 번호"
+            pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
+          />
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <ul>
+        <li>
+          <label for="address">주소</label>
+          <input type="text" name="address" id="" />
+        </li>
+        <li>
+          <label for="tel2">연락처</label>
+          <input type="tel2" name="name" id="" />
+        </li>
+        <li>
+          <label for="meno">메모</label>
+          <textarea name="text" id="" cols="30" rows="10"></textarea>
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <ul>
+        <li>
+          <input type="checkbox" name="" id="" value="과테말라" />
+          <input type="number" name="" id="" min="0" max="10" />개
+        </li>
+        <li>
+          <input type="checkbox" name="" id="" value="과테말라" />
+          <input type="number" name="" id="" min="0" max="10" />개
+        </li>
+        <li>
+          <input type="checkbox" name="" id="" value="과테말라" />
+          <input type="number" name="" id="" min="0" max="10" />개
+        </li>
+      </ul>
+    </fieldset>
+    <div>
+      <input type="submit" value="주문하기" />
+      <input type="reset" value="다시작성" />
+    </div>
+  </body>
+</html>
