@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .main {
+      background-color: #ccc;
+      display: inline-block;
+      width: 960px;
+    }
+
+    h2 {
+      float: left;
+    }
+    li {
+      float: right;
+      list-style: none;
+      display: inline-block;
+      margin-left: 20px;
+      line-height: 60px;
+    }
+    a:link {
+      text-decoration: none;
+      color: black;
+    }
+    .clearfix::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+  </style>
+  <body>
+    <div class="main">
+      <h2><a href="">Logo</a></h2>
+      <nav>
+        <ul>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Member Join</a></li>
+          <li><a href="#">Site map</a></li>
+          <li><a href="#">Location</a></li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>
